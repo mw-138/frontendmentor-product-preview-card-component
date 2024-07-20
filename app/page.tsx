@@ -48,7 +48,7 @@ export default function Home() {
               $169.99
             </small>
           </h3>
-          <button className="bg-darkCyan hover:bg-primaryHover transition-colors p-4 flex gap-2 w-full justify-center items-center rounded-lg">
+          <button className="bg-darkCyan hover:bg-primaryHover text-white transition-colors p-4 flex gap-2 w-full justify-center items-center rounded-lg">
             <Image src={IconCart} width={0} height={0} alt="" />
             <strong>Add to Cart</strong>
           </button>
