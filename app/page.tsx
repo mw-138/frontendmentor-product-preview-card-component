@@ -25,14 +25,14 @@ export default function Home() {
           className="w-full h-[300px] block object-cover md:hidden"
         />
         <section className="m-6 flex flex-col justify-center gap-8">
-          <h2 className="text-[14px] text-darkGrayishBlue uppercase tracking-[5px] font-[500]">
+          <h1 className="text-[14px] text-darkGrayishBlue uppercase tracking-[5px] font-[500]">
             Perfume
-          </h2>
-          <h1
+          </h1>
+          <h2
             className={`${fraunces.className} text-veryDarkBlue font-[700] text-[42px] leading-10`}
           >
             Gabrielle Essence Eau De Parfum
-          </h1>
+          </h2>
           <p className="text-[14px] text-darkGrayishBlue font-[500]">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
