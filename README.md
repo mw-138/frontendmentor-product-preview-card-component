@@ -14,7 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-tailwind-css-khcyybd1G4)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-tailwind-css-7rw2s7BxNo)
 - [Live Site URL](https://frontendmentor-product-preview-card-component-rust.vercel.app/)
 
 ## My process
