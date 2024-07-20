@@ -3,6 +3,7 @@ import DesktopProductImage from "@/public/image-product-desktop.jpg";
 import MobileProductImage from "@/public/image-product-mobile.jpg";
 import IconCart from "@/public/icon-cart.svg";
 import { Fraunces } from "next/font/google";
+import Link from "next/link";
 
 const fraunces = Fraunces({ subsets: ["latin"] });
 
@@ -53,6 +54,24 @@ export default function Home() {
           </button>
         </section>
       </article>
+
+      <footer className="text-[11px] mt-2 text-center text-veryDarkBlue">
+        Challenge by{" "}
+        <Link
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
+          Frontend Mentor
+        </Link>
+        . Coded by{" "}
+        <Link
+          href="https://www.frontendmentor.io/profile/mw-138"
+          target="_blank"
+        >
+          mw-138
+        </Link>
+        .
+      </footer>
     </main>
   );
 }
